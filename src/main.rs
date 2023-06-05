@@ -1,5 +1,7 @@
 #![allow(unused)]
 
+mod strings;
+
 use std::io;
 use rand::Rng;
 use std::io::{Write, BufReader, BufRead, ErrorKind};
