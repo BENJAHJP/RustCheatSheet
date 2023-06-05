@@ -1,4 +1,4 @@
-fn main(){
+fn datatypes(){
     println!("Max u32: {}", u32::Max);
     println!("Max u32: {}", f32::Max);
 

@@ -1,12 +1,4 @@
-#![allow(unused)]
-
-use std::io;
-use rand::Rng;
-use std::io::{Write, BufReader, BufRead, ErrorKind};
-use std::fs::File;
-use std::cmp::Ordering;
-
-fn main() {
+fn variables() {
     const ONE_MAIL: u32 = 1_000_000;
     const PI: f32 = 3.141592;
     let age: &str = "47";
