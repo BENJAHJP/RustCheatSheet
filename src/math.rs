@@ -12,4 +12,7 @@ fn math(){
     println!("5 * 4 = {}", num_3 * num_4);
     println!("5 / 4 = {}", num_3 / num_4);
     println!("5 % 4 = {}", num_3 % num_4);
+
+    let mut num_5: u32 = 6;
+    println!("num_5 = {}", num_5 += 1);
 }
